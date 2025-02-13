@@ -1,4 +1,2 @@
----
-- name: Print a message
-  debug:
-    msg: "Hello, this is a dummy role!" 
+- name: dummy | welcome message
+  debug: msg="Welcome to dummy package"
